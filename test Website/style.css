@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: white;
     margin: 0;
     color: white;
     min-height: 100vh;
@@ -10,10 +10,10 @@ body {
   }
   
   .container {
-    background-color: #006699;
+    background-color: rgb(57, 149, 211);
     padding: 3rem;
-    border-radius: 1rem;
-    border: 2px solid black;
+    border-radius: .5rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,7 @@ body {
   }
   
   .title {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     text-align: center;
   }
@@ -73,5 +74,5 @@ body {
   }
   
   .btn:hover {
-    background-color: blueviolet;
+    background-color: magenta;
   }
